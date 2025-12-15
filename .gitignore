@@ -1,0 +1,13 @@
+gitignore
+# Compiled files
+*.class
+target/
+build/
+
+# IDE
+.idea/
+*.iml
+
+# System
+.DS_Store
+Thumbs.db
