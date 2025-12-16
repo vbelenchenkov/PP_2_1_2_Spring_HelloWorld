@@ -16,8 +16,8 @@ public class App {
         System.out.println("bean and bean1 point to the same object -> " +
                 (bean == bean1));
 
-        Cat cat1 = (Cat) applicationContext.getBean("catBean");
-        Cat cat2 = (Cat) applicationContext.getBean("catBean");
+        Cat cat1 = (Cat) applicationContext.getBean("getCatBean");
+        Cat cat2 = (Cat) applicationContext.getBean("getCatBean");
 
         System.out.println("cat1 and cat2 point to the same object -> " +
                 (cat1 == cat2));
